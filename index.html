@@ -4,17 +4,49 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Template</title>
+    <!-- <link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400" rel="stylesheet"> -->
     <link href="data:image/x-icon;base64,AAABAAEAEBAAAAEACABoBQAAFgAAACgAAAAQAAAAIAAAAAEACAAAAAAAAAEAAAAAAAAAAAAAAAEAAAAAAAANFSMAi5GMAFBOXwAEAAAAoqijABMXKQCQlJUA+vfzABMcJgAXGiAAT1llAAABHgBtgKsAKTM9AJSalQCorqwAQl2MAGN3fwB+hY0Abo6oAAgIGACrsawAl5ybAMvf4wCPtOsAhoyHACs8TwCSuO4A3NvXAJ2gngDz7usAnaOeAPHy7gCHotoA9vDxAKClpAC5zvAAzs3JAIar4wCPlZAA+fbxAFUrNwAtRWoApqynAGRvegBMX28ApqywAF8yOgCYnpkAKztNAFZ6tgBujcoAiJ7YAODb2ACKkIsAAAACAG+XxAD38u8AoaeiAPny7wCfvewA9/byACcuQgCNreEA6eThAJOZlAB+mMcA+/z7AKqwqwCssKsAl56aANvW0wCFi4YAw8XFAC07TgDy7eoAnKKdAM/c9wD08/MA5N/cAI6UjwAhMEAAeIKHAPv28wD5+fMApaumAJKXmAAdN1UA1tHOAJSbmwBidYUAFCE4ACs1RgCVoJgAl52YANC1ugBsisMAgJCWAE0oMQBxeosA9vHuAKCmoQD09fEA9fn0ACUsRwCOmJwAkpiTAIut4wCnrqcAf4mUAJuhnAAKEh8AnaGcAAwPHwDEycoAx8jHAHZ8dwCeo6IAhZSaAOPe2wAgKkIA0+X5AFqDwgAiLz8A+vXyAKW95gBnh7wAd5/WADFMcQCWnJcALDdFAH+IkgBDKS0AKzhRALLG7wCan6AANTg/AIWPlQD18O0AlY7ZAJ+loABPLC0AMUFRAPL18wCfp6YAkZKMAAAADwC/z+8A5+LfACA0RgCRl5IA6OLfAKLC7QArMT0AkJueADxJVwCWrtYAPkhdAB4fIwCBnssAmqCbAG+NxgBQZ4wAChgqACMqOwD59PEA/PTxAPn49ADe5+8AFB0nAFspNwB+hH8AOUxYAJWblgCqsaoABwsWAFsyQABNHCwAg4uLAIaLiwCBo9sAb3uAAKKimQD07+wAViMvAODe3gBbaH4A+fL1AA4bKwAhLUUApaylACcuPwAEBQ4A5uXhAD8fJABYb5MAdImPAKetqACJseoAjpemAP38+ACSs94AmZ+aAAUPIwBZX20A8ernAJix6gCboaAAMTtLAISl0ACJjZIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAARYo7VLhiZ8inUzlPU5R3HxWlOQeNsYSPWLsiijUeJUYVZoqlB6oCKaY9F0tkt3NpFa63tygvzn2wQ07Bl3xyXUSQQB63X8kbxsIcIM1HLLZERW26nrnRM344eahvrxFlxUS1Y8BREyGiKkmkcRp1jCtsx1rLvT+LYAvQA5KaZR8rvmGDPpy0DDTDqTcKWYwfOlXPgrxrhqGYEAB4LiMfTIwEh8SVn0IyiIBoLQ8fTKAfH7KsSiZNk39Xe5sdoMowoG6RjlsYJDx6o1x2cF6BrQ4WXokxDYWdmRQSXoEOllABlq1eUggJBb/MBkFqJwFIqxkBlg5Ws9JBQZZQNkirdAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=" rel="icon" type="image/x-icon" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     <link rel="stylesheet" href="./styles.css">
 </head>
 
 <body>
-    <i class="fab fa-500px"></i>
+    <!-- Quote container -->
+    <div class="quote-container" id="quote-container">
 
-    <h1>Hello World</h1>
+    <!-- Quote -->
+    <div class="quote-text">
+    <i class="fas fa-quote-left"></i>
+    <span id="quote"></span>
+    </div>
+
+   <!-- Author -->
+   <div class="author">
+   <span id="author"></span>
+   </div>
+
+   <!-- Buttons -->
+   <div class="button-container">
+       <button class="twitter-button" id="twitter" title="Tweet this!">
+       <i class="fab fa-twitter"></i>
+    </button>
+
+    <button id="new-quote">New Quote</button>
+ 
+   </div>
+
+
+</div>
+
+
+
+     <!-- loader -->
+
+   <div class="loader" id="loader"></div>
+
+
     <!--script-->
-    <script scr="script.js"> </script>
+    <script src="script.js"></script>
 </body>
 
 </html>
